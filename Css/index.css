@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+}
+@import url('../Fonts/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember');
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1A242F;
+    display: block;
+    height: 70px;
+    overflow: hidden;
+    overflow: visible;
+}
+
+.navbar-textarea{
+    display: flex;
+    position: relative;
+    color: black;
+    top: 20px;
+    left: 22px;
+    height: 40px;
+}
+
+.navbar-logo{
+    display: flex;
+    padding: 2px 1px;
+    color: white;
+    width: 50px;
+    margin: 1px 2px;
+    height: 30px;
+    position: relative;
+    left: 0;
+}
+
+.navbar-logo img{
+    height: 30px;
+}
+.navbar-options{
+    display: flex;
+    position: relative;
+    left: 83%;
+    top: 5px;
+}
+
+.navbar-options select{
+    width: 40px;
+    background-color: #252E39;
+    border: none;
+    color: #DDE0E3;
+}
+
+.navbar-logo h2{
+    display: none;
+}
+
+.navbar-signin{
+    display: flex;
+    position: relative;
+    left: 85%;
+    top: -5px;
+}
+
+.navbar-signin button{
+    background: none;
+    border: none;
+    position: inherit;
+    color: #DDE0E3;
+    cursor: pointer;
+    font-family: AmazonEmberLt;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.navbar-options option{
+    border: none;
+}
+
+.navbar-options select:hover{
+    color: white;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: AmazonEmberLt;
+    src: url('../Fonts/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Lt.ttf');
+}
+
+.container1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: url('../Images/BaseTile1WriteableSized.png');
+    top: 70px;
+}
+
+.welcome{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 40%;
+    height: 500px;
+    color: white;
+}
+
+.container2{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0; 
+    background: url('../Images/BaseTileWriteable2.png');
+}
+
+.LivingRoom{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 40%;
+    height: 500px;
+    color: white;
+    left: 60%;
+}
+
+.membership{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0; 
+    background: url('../Images/MembershipTileWritable.png'); 
+}
+
+.member-text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 40%;
+    height: 500px;
+    color: white;
+}
+
+.firestick{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0; 
+    background: url('../Images/FiresticktTile.png'); 
+}
+
+.firestick-text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 40%;
+    height: 500px;
+    color: white;
+    left: 60%;
+}
+
+.infotiles{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0; 
+    background-color: white;
+    display: flex;
+    color: black;
+}
+
+.FamilyFriendly{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0; 
+    background: url('../Images/KidsSectionWritable.png'); 
+}
+
+.cartoon-text{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 40%;
+    height: 500px;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #222222;
+    position: relative;
+}
+
+.footer img{
+    position: relative;
+    top: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.footer-options{
+    list-style: none;
+    position: relative;
+    display: flex;
+    top: 20px;
+    margin-left: 25.5%;
+}
+
+.footer-options a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #0000EE;
+    padding: 2px;
+    margin: 2px;
+    font-size: 15px;
+}
+
+.footer-options p{
+    color: #B1B1B1;
+    padding: 2px;
+    margin: 2px; 
+}
+
+.InfoTile1{
+    position: relative;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+.InfoTile2{
+    position: relative;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+.InfoTile3{
+    position: relative;
+    width: 30%;
+    margin: 1%;
+    text-align: center; 
+}
+
+.textformatting h1{
+    position: relative;
+    top:200px;
+    margin-left: 70px;
+}
+
+.textformatting p{
+    position: relative;
+    top:200px;
+    margin-left: 70px;
+}
+
+.textformatting button{
+    position: relative;
+    top:230px;
+    background-color: #107AB0; 
+    color: white;
+    margin-left: 70px;
+    height: 50px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+
