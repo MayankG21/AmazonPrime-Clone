@@ -1,7 +1,6 @@
 *{
     margin: 0;
 }
-@import url('../Fonts/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember');
 
 .navbar{
     position: fixed;
@@ -13,6 +12,7 @@
     height: 70px;
     overflow: hidden;
     overflow: visible;
+    z-index: 1;
 }
 
 .navbar-textarea{
@@ -90,10 +90,11 @@
 
 .container1{
     width: 100%;
-    height: 500px;
+    height: 520px;
     position: relative;
     background: url('../Images/BaseTile1WriteableSized.png');
     top: 70px;
+    overflow-y: hidden;
 }
 
 .welcome{
@@ -101,13 +102,13 @@
     top: 0;
     background-color: black;
     width: 40%;
-    height: 500px;
+    height: 520px;
     color: white;
 }
 
 .container2{
     width: 100%;
-    height: 500px;
+    height: 520px;
     position: relative;
     top: 0; 
     background: url('../Images/BaseTileWriteable2.png');
@@ -117,15 +118,15 @@
     position: absolute;
     top: 0;
     background-color: black;
-    width: 40%;
-    height: 500px;
+    width: 45%;
+    height: 520px;
     color: white;
-    left: 60%;
+    left: 55%;
 }
 
 .membership{
     width: 100%;
-    height: 500px;
+    height: 520px;
     position: relative;
     top: 0; 
     background: url('../Images/MembershipTileWritable.png'); 
@@ -136,13 +137,13 @@
     top: 0;
     background-color: black;
     width: 40%;
-    height: 500px;
+    height: 520px;
     color: white;
 }
 
 .firestick{
     width: 100%;
-    height: 500px;
+    height: 520px;
     position: relative;
     top: 0; 
     background: url('../Images/FiresticktTile.png'); 
@@ -152,15 +153,15 @@
     position: absolute;
     top: 0;
     background-color: black;
-    width: 40%;
-    height: 500px;
+    width: 45%;
+    height: 520px;
     color: white;
-    left: 60%;
+    left: 55%;
 }
 
 .infotiles{
     width: 100%;
-    height: 500px;
+    height: 520px;
     position: relative;
     top: 0; 
     background-color: white;
@@ -170,7 +171,7 @@
 
 .FamilyFriendly{
     width: 100%;
-    height: 500px;
+    height: 520px;
     position: relative;
     top: 0; 
     background: url('../Images/KidsSectionWritable.png'); 
@@ -181,7 +182,7 @@
     top: 0;
     background-color: black;
     width: 40%;
-    height: 500px;
+    height: 520px;
     color: white;
 }
 
@@ -245,19 +246,19 @@
 
 .textformatting h1{
     position: relative;
-    top:200px;
+    top:100px;
     margin-left: 70px;
 }
 
 .textformatting p{
     position: relative;
-    top:200px;
+    top:100px;
     margin-left: 70px;
 }
 
 .textformatting button{
     position: relative;
-    top:230px;
+    top:130px;
     background-color: #107AB0; 
     color: white;
     margin-left: 70px;
@@ -265,5 +266,27 @@
     width: 250px;
     border-radius: 3px;
 }
+
+.textformatting1 button{
+    position: relative;
+    top:130px;
+    background-color: #107AB0; 
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+.textformatting1 h1{
+    position: relative;
+    top:100px;
+}
+
+.textformatting1 p{
+    position: relative;
+    top:100px;
+}
+
+
 
 
