@@ -9,7 +9,7 @@
     right: 0;
     background-color: #1A242F;
     display: block;
-    height: 70px;
+    height: 80px;
     overflow: hidden;
     overflow: visible;
     z-index: 1;
@@ -20,7 +20,7 @@
     position: relative;
     color: black;
     top: 20px;
-    left: 22px;
+    left: 25px;
     height: 40px;
 }
 
@@ -30,13 +30,13 @@
     color: white;
     width: 50px;
     margin: 1px 2px;
-    height: 30px;
+    height: 35px;
     position: relative;
     left: 0;
 }
 
 .navbar-logo img{
-    height: 30px;
+    height: 35px;
 }
 .navbar-options{
     display: flex;
@@ -90,11 +90,11 @@
 
 .container1{
     width: 100%;
-    height: 520px;
+    height: 550px;
     position: relative;
     background: url('../Images/BaseTile1WriteableSized.png');
     top: 70px;
-    overflow-y: hidden;
+    width:100%;
 }
 
 .welcome{
@@ -102,13 +102,13 @@
     top: 0;
     background-color: black;
     width: 40%;
-    height: 520px;
+    height: 550px;
     color: white;
 }
 
 .container2{
     width: 100%;
-    height: 520px;
+    height: 550px;
     position: relative;
     top: 0; 
     background: url('../Images/BaseTileWriteable2.png');
@@ -119,14 +119,14 @@
     top: 0;
     background-color: black;
     width: 45%;
-    height: 520px;
+    height: 550px;
     color: white;
     left: 55%;
 }
 
 .membership{
     width: 100%;
-    height: 520px;
+    height: 550px;
     position: relative;
     top: 0; 
     background: url('../Images/MembershipTileWritable.png'); 
@@ -137,13 +137,13 @@
     top: 0;
     background-color: black;
     width: 40%;
-    height: 520px;
+    height: 550px;
     color: white;
 }
 
 .firestick{
     width: 100%;
-    height: 520px;
+    height: 550px;
     position: relative;
     top: 0; 
     background: url('../Images/FiresticktTile.png'); 
@@ -154,14 +154,14 @@
     top: 0;
     background-color: black;
     width: 45%;
-    height: 520px;
+    height: 550px;
     color: white;
     left: 55%;
 }
 
 .infotiles{
     width: 100%;
-    height: 520px;
+    height: 550px;
     position: relative;
     top: 0; 
     background-color: white;
@@ -171,7 +171,7 @@
 
 .FamilyFriendly{
     width: 100%;
-    height: 520px;
+    height: 550px;
     position: relative;
     top: 0; 
     background: url('../Images/KidsSectionWritable.png'); 
@@ -182,13 +182,13 @@
     top: 0;
     background-color: black;
     width: 40%;
-    height: 520px;
+    height: 550px;
     color: white;
 }
 
 .footer{
     width: 100%;
-    height: 120px;
+    height: 130px;
     background-color: #222222;
     position: relative;
 }
